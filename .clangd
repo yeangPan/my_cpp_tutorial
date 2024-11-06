@@ -1,0 +1,16 @@
+CompileFlags:
+  Remove:
+    - -imsvc*           # 移除所有 -imsvc 开头的参数
+    - /imsvc*           # 移除所有 /imsvc 开头的参数
+    - -internal-isystem # 移除内部系统包含
+  Add:
+    - -std=c++20
+    - -Wall
+    - -Wextra
+
+Diagnostics:
+  UnusedIncludes: None
+  ClangTidy:
+    Remove: 
+      - modernize-use-trailing-return-type
+

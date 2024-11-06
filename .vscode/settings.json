@@ -1,0 +1,8 @@
+{
+  "clangd.arguments": [
+    "--clang-tidy",
+    "--compile-commands-dir=.vscode",
+  ],
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2
+}
