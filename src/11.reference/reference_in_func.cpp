@@ -28,8 +28,15 @@ int main(int argc, const char **argv) {
   solve(n);
   std::cout << "n:" << n << std::endl;
 
-  int a = 2, b = 3;
-  std::cout << "b/a:" << (b / a) * 1.0 << std::endl;
+  // int a = 2, b = 3;
+  // std::cout << "b/a:" << (b / a) * 1.0 << std::endl;
+
+  // std::cout << "b/a:" << (b / (double)a) * 1.0 << std::endl;
+
+  // float d1 = (b / (float)a);
+  // double d2 = (b / (double)a);
+  // bool flag = d1 == d2;
+  // std::cout << "d1==d2:" << flag << std::endl;
 
   return 0;
 }
