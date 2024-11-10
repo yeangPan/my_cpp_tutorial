@@ -26,8 +26,8 @@ int main() {
   char c5 = (str + 1)[5];
 
   int num1 = *str + 2;
-  long num2 = (long)str;
-  long num3 = (long)(str + 2);
+  long num2 = (long long)str;
+  long num3 = (long long)(str + 2);
   printf("  s1 = %s\n", s1);
   printf("  s2 = %s\n", s2);
   printf("  c1 = %c\n", c1);
